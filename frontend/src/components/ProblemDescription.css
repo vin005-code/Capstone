@@ -1,0 +1,38 @@
+.problem-description {
+  padding: 24px;
+  color: #e5e7eb;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  line-height: 1.7;
+}
+
+.problem-description h2 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.problem-description h3 {
+  color: #f9fafb;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.problem-meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  color: #9ca3af;
+}
+
+.problem-description pre {
+  padding: 16px;
+  background: #111827;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.problem-description ul {
+  padding-left: 24px;
+}

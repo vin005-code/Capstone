@@ -1,0 +1,63 @@
+.problem-section {
+  padding: 30px 40px;
+  color: #e5e7eb;
+}
+
+.problem-section h2 {
+  margin-bottom: 25px;
+}
+
+.problem-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+}
+
+.problem-title {
+  color: #f9fafb;
+  font-weight: 500;
+}
+
+.easy {
+  color: #4ade80;
+}
+
+.medium {
+  color: #facc15;
+}
+
+.hard {
+  color: #f87171;
+}
+
+.solved {
+  color: #4ade80;
+}
+
+.unsolved {
+  color: #9ca3af;
+}
+
+.problem-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.problem-filters input,
+.problem-filters select {
+  padding: 12px;
+  background: #1f2937;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+.problem-filters input {
+  flex: 1;
+}

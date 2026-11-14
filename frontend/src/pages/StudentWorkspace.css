@@ -1,0 +1,18 @@
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+  gap: 16px;
+  padding: 20px;
+  align-items: start;
+}
+
+.workspace-left,
+.workspace-right {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}
