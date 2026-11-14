@@ -1,0 +1,31 @@
+.output-panel {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  margin-top: 12px;
+  color: #e5e7eb;
+}
+
+.output-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid #374151;
+}
+
+.output-header h3 {
+  margin: 0;
+  color: white;
+}
+
+.output-header span {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.output-content {
+  padding: 18px;
+  min-height: 100px;
+  color: #9ca3af;
+}
